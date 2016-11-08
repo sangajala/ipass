@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "html:target/whisper-html-report", "json:target/whisper_report.json"},
-        tags = {"@geomon"},
+//        tags = {"@"},
         features= "src/test/resources/features"
 //        glue=""
 )
